@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230529185543">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<a href="../index.html" class="header__logo _icon-logo"></a>
+			<div class="header__burger icon-menu">
+				<span></span>
+			</div>
+			<ul class="header__links">
+				<li class="header__link">
+					<a href="" class="_icon-youtube"></a>
+				</li>
+				<li class="header__link">
+					<a href="" class="_icon-vk"></a>
+				</li>
+				<li class="header__link">
+					<a href="" class="_icon-telegram"></a>
+				</li>
+			</ul>
+			<nav class="header__menu menu-header">
+				<div class="menu-header__logo _icon-logo"></div>
+				<div class="menu-header__close"></div>
+				<ul class="menu-header__list">
+					<li class="menu-header__item"><a href="">Меню</a></li>
+					<li class="menu-header__item"><a href="dilivery.html">Доставка</a></li>
+					<li class="menu-header__item"><a href="">Оплата</a></li>
+				</ul>
+				<button data-popup="#popup1" type="button" class="menu-header__button button">
+					Бронь столика
+				</button>
+				<ul class="menu-header__links">
+					<li class="menu-header__link"><a href="" class="_icon-youtube"></a></li>
+					<li class="menu-header__link"><a href="" class="_icon-vk"></a></li>
+					<li class="menu-header__link"><a href="" class="_icon-telegram"></a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="page">
+			<nav data-lp class="page__nav nav-page">
+				<div class="nav-page__container">
+					<a href="#" class="nav-page__user _icon-user">Личный кабинет</a>
+					<button type="button" class="nav-page__cart _icon-cart">
+						<div class="nav-page__products"></div>
+					</button>
+				</div>
+			</nav>
+			<section class="page__product product">
+				<div class="product__container">
+					<div class="product__top top-product">
+						<ul class="top-product__list">
+							<li class="top-product__item top-product__item_active">
+								Завтраки
+							</li>
+							<li class="top-product__item">Raw</li>
+							<li class="top-product__item">Холодные закуски</li>
+							<li class="top-product__item">Брускетты</li>
+							<li class="top-product__item">К вину</li>
+							<li class="top-product__item">Салаты</li>
+							<li class="top-product__item">Супы</li>
+							<li class="top-product__item">Паста и ризотто</li>
+							<li class="top-product__item">Мясо</li>
+							<li class="top-product__item">Рыба</li>
+							<li class="top-product__item">Grill</li>
+							<li class="top-product__item">Мангал</li>
+							<li class="top-product__item">Гарниры</li>
+						</ul>
+					</div>
+					<div class="product__card card-product">
+						<div class="card-product__images">
+							<div class="card-product__image card-product__image-ibg card-product__image_main">
+								<picture><source srcset="img/dilivery/01.webp" type="image/webp"><img src="img/dilivery/01.jpg" alt="" /></picture>
+							</div>
+							<div class="card-product__image card-product__image-ibg">
+								<picture><source srcset="img/dilivery/02.webp" type="image/webp"><img src="img/dilivery/02.jpg" alt="" /></picture>
+							</div>
+							<div class="card-product__image card-product__image-ibg">
+								<picture><source srcset="img/dilivery/03.webp" type="image/webp"><img src="img/dilivery/03.jpg" alt="" /></picture>
+							</div>
+							<div class="card-product__image card-product__image-ibg">
+								<picture><source srcset="img/dilivery/01.webp" type="image/webp"><img src="img/dilivery/01.jpg" alt="" /></picture>
+							</div>
+						</div>
+						<div class="card-product__content">
+							<h3 class="card-product__title">
+								Яичница-глазунья из трех яиц
+							</h3>
+							<div class="card-product__price">
+								<span>250 ₽</span> / 400 грамм
+							</div>
+							<div class="card-product__buy buy-product">
+								<h6 class="buy-product__title">Количество порций:</h6>
+								<div class="buy-product__manage">
+									<div class="buy-product__quantity">
+										<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" value="1" class="buy-product__input" />
+										<button type="button" class="buy-product__more _icon-fill-arrow"></button>
+										<button type="button" class="buy-product__less _icon-fill-arrow"></button>
+									</div>
+									<button data-pid="1" type="button" class="buy-product__button button">
+										В корзину
+									</button>
+								</div>
+							</div>
+							<div class="card-product__more more-product">
+								<h5 class="more-product__title">Сделать еще вкуснее</h5>
+								<form action="" class="more-product__form">
+									<div class="more-product__item">
+										<input type="checkbox" id="checkbox1" class="more-product__input" />
+										<div class="more-product__labels">
+											<label for="#checkbox1" class="more-product__name">Тигровые креветки 60 г</label>
+											<label for="#checkbox1" class="more-product__price">450 ₽</label>
+										</div>
+									</div>
+									<div class="more-product__item">
+										<input type="checkbox" id="checkbox2" class="more-product__input" />
+										<div class="more-product__labels">
+											<label for="#checkbox2" class="more-product__name">Томаты / паприка</label>
+											<label for="#checkbox2" class="more-product__price">80 ₽</label>
+										</div>
+									</div>
+									<div class="more-product__item">
+										<input type="checkbox" id="checkbox3" class="more-product__input" />
+										<div class="more-product__labels">
+											<label for="#checkbox3" class="more-product__name">Бекон</label>
+											<label for="#checkbox3" class="more-product__price">120 ₽</label>
+										</div>
+									</div>
+									<div class="more-product__item">
+										<input type="checkbox" id="checkbox4" class="more-product__input" />
+										<div class="more-product__labels">
+											<label for="#checkbox4" class="more-product__name">Сыр чеддер 30 г</label>
+											<label for="#checkbox4" class="more-product__price">80 ₽</label>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__contacts contacts-footer">
+				<div class="contacts-footer__container">
+					<h4 class="contacts-footer__subtitle subtitle">контакты</h4>
+					<div class="contacts-footer__content">
+						<div class="contacts-footer__left">
+							<div class="contacts-footer__item">
+								<div class="contacts-footer__time"><span>2</span>мин</div>
+								<div class="contacts-footer__from">
+									из центра <br />
+									Санкт-Петербурга
+								</div>
+							</div>
+							<div class="contacts-footer__item">
+								<div class="contacts-footer__time"><span>12</span>мин</div>
+								<div class="contacts-footer__from">
+									из города <br />
+									Зеленогорск
+								</div>
+							</div>
+							<div class="contacts-footer__item">
+								<div class="contacts-footer__time"><span>42</span>мин</div>
+								<div class="contacts-footer__from">
+									из аэропорта <br />
+									Пулково
+								</div>
+							</div>
+							<div class="contacts-footer__item">
+								<div class="contacts-footer__time"><span>52</span>мин</div>
+								<div class="contacts-footer__from">
+									из города <br />
+									Павловск
+								</div>
+							</div>
+						</div>
+						<div class="contacts-footer__right">
+							<div class="contacts-footer__map">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1679.297975032442!2d30.252087812660164!3d59.96477441407714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469636c8103e1bf1%3A0xf5bfa2701b67ae66!2z0JHQvtC70YzRiNC-0Lkg0J_QtdGC0YDQvtCy0YHQutC40Lkg0LzQvtGB0YI!5e0!3m2!1sru!2sru!4v1685067238047!5m2!1sru!2sru" width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</div>
+							<div class="contacts-footer__about about-footer">
+								<div class="about-footer__place _icon-map">
+									Санкт-Петербург, Северная дорога, 11
+								</div>
+								<a href="tel:+79217777777" class="about-footer__phone _icon-phone">+7 (921) 777-77-77</a>
+								<div class="about-footer__time time-about-footer">
+									<h6 class="time-about-footer__title">Время работы</h6>
+									<div class="time-about-footer__first">
+										<span>Вск-Чт </span>с 12:00 до 23:00
+									</div>
+									<div class="time-about-footer__second">
+										<span>Пт-Сб </span>с 12:00 до 03:00
+									</div>
+								</div>
+								<div class="about-footer__buttons">
+									<button data-popup="#popup1" class="about-footer__button button">
+										Бронь столика
+									</button>
+									<div class="about-footer__button about-footer__button_border">
+										Задать вопрос
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom bottom-footer">
+				<div class="bottom-footer__container">
+					<div class="bottom-footer__logo _icon-logo"></div>
+					<a href="#" class="bottom-footer__politic">Политика конфиденциальности</a>
+					<div class="bottom-footer__cards">
+						<div class="bottom-footer__card _icon-visa"></div>
+						<div class="bottom-footer__card _icon-mir"></div>
+						<div class="bottom-footer__card _icon-ms_vrt_pos"></div>
+					</div>
+					<div class="bottom-footer__by">Дизайн d-e-n.ru</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<div id="popup1" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__body">
+					<div class="popup__logo _icon-logo"></div>
+					<h4 class="popup__title">Забронировать столик</h4>
+					<form action="" class="popup__form">
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Имя" class="popup__input" />
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Телефон" class="popup__input" />
+						<div class="popup__bottom">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Гостей" class="popup__input" />
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Время" class="popup__input" />
+						</div>
+						<button type="submit" class="popup__button button">
+							Забронировать
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/files/addToCart.js?_v=20230529185543"></script>
+	<script src="js/app.min.js?_v=20230529185543"></script>
+</body>
+
+</html>
